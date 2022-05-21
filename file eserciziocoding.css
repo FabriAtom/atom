@@ -1,0 +1,138 @@
+body{
+  background-image: url(background.jpg);
+   background-size: cover;
+}
+
+.sfondo{
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  height: 90%;
+  width: 780px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.button, .container1{
+  text-align: center;
+}
+
+.logo {
+  width:170px;
+  padding-top:35px;
+  position:relative;
+  top:20px;
+}
+
+.logotext {
+  font-size: 18px;
+  color: #00DD00;
+
+  position: relative;
+  top:8px;
+  font-family: "Gill Sans Extrabold";
+  font-weight:800;
+}
+
+.button{
+  background-color:#00DD00;
+  width: 80%;
+  border-right:20px;
+  border-left:20px;
+  margin-left: 70px;
+  padding: 4px;
+}
+
+#bottonepiccolo1, #bottonepiccolo2, #bottonepiccolo3{
+  font-size: 9px;
+  text-align: center;
+  border-radius: 0;
+  border-width: 0;
+}
+
+
+.label {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding:3px;
+  margin: auto;
+}
+
+.sottolabel {
+  font-size: 11px;
+  color: white;
+  padding: 3px;
+  position: relative;
+  bottom:px;
+  font-family:
+}
+
+
+.monopattino1, .monopattino2, .monopattino3{
+  color: white;
+  font-size: 3px;
+  font-family:sans-serif;
+}
+
+.monopattino1{
+position: relative;
+left: 30px;
+top: 13px;
+}
+
+.monopattino2{
+  position:relative;
+  bottom: 8px;
+  left:70px;
+}
+
+.monopattino3{
+  position: relative;
+  bottom: 25px;
+  left: 70px;
+}
+
+#freccia{
+ color: white;
+ position: relative;
+ top: 10px;
+ right: 10px;
+}
+
+.stato{
+  position: relative;
+  bottom: 7px;
+}
+
+#carica1{
+  width: 300px;
+  height: 20px;
+  background:rgb(245,180,83);
+  position:relative;
+  bottom: 30px;
+  border-radius: 5px;
+
+}
+
+#carica2{
+  width: 400px;
+  height: 20px;
+  background:rgb(30,195,30);
+  position:relative;
+  bottom: 30px;
+  border-radius: 5px;
+}
+
+#carica3{
+  width: 100px;
+  height: 20px;
+  background:rgb(190,65,65);
+  position:relative;
+  bottom: 30px;
+  border-radius: 5px;
+}
